@@ -37,6 +37,19 @@ namespace Bubble_sort
 
             }
         }
+        public void display()
+        {
+            // Menampilkan array yang tersusun
+            Console.WriteLine("");
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" Element array yang telah tersusun ");
+            Console.WriteLine("-----------------------------------");
+            for (int j = 0; j < n; j++)
+            {
+                Console.WriteLine(a[j]);
+            }
+            Console.WriteLine("");
+        }
 
     }
 }
